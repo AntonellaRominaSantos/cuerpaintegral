@@ -1,9 +1,9 @@
 /* media queries*/
-@use "./mixins.scss" as *;
-@use "./animaciones" as *;
+@use 'mixins.scss' as *;
+@use 'animaciones.scss' as *;
 
 /* variables*/
-@use "./variables" as *;
+@use 'variables.scss' as *;
 
   *{
     margin: 0rem;
@@ -141,7 +141,7 @@ main {
 
 }
 
-/* Termina MAIN - Index*/
+/* Fin del MAIN - Index*/
 
 /* Comienza DESTACADO - Index*/
 
@@ -208,8 +208,8 @@ main {
    }
 }
 
-/* Termina DESTACADO - Index*/
-/* Comienza ARTICLES Index */
+/* Fin del DESTACADO - Index*/
+/* Inicio del ARTICLES Index */
 
 .articles{
   margin: 0rem;
