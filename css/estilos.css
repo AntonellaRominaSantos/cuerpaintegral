@@ -1,3 +1,209 @@
+/* media queries*/
+/* variables*/
+/* Estilos generales - Cuerpa Integral*/
+#texto-main {
+  padding: 3.5rem;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 575px) {
+  #texto-main {
+    padding: 5rem 3.5rem;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #texto-main {
+    padding: 3rem 12rem 3rem 3.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #texto-main {
+    padding: 2.9rem 3.5rem;
+  }
+}
 
+.parrafo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  letter-spacing: 0.15rem;
+  line-height: 1.1rem;
+}
+@media screen and (max-width: 575px) {
+  .parrafo {
+    font-size: 0.75rem;
+    letter-spacing: 0.12rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .parrafo {
+    font-size: 0.7rem;
+    letter-spacing: 0.11rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .parrafo {
+    font-size: 0.7rem;
+    letter-spacing: 0.11rem;
+    line-height: 1rem;
+  }
+}
+
+.titulo-main {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  color: black;
+  font-weight: 100;
+  line-height: 2.4rem;
+  margin: 2.6rem 0rem;
+}
+@media screen and (max-width: 575px) {
+  .titulo-main {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .titulo-main {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin: 1.9rem 0rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .titulo-main {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+
+/* Comienza MAIN - Cuerpa Integral*/
+.main-sobremi {
+  background-color: #ededed;
+  margin: 0rem;
+  padding: 2rem 0rem;
+  overflow-x: hidden;
+}
+.main-sobremi .col-texto-main {
+  display: flex;
+  align-items: center;
+  padding-right: 0rem;
+}
+
+.col-img-cuerpa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-img-cuerpa #img-cuerpa {
+  width: 20rem;
+  margin: 0rem 4rem;
+  padding: 1rem;
+}
+@media screen and (max-width: 575px) {
+  .col-img-cuerpa #img-cuerpa {
+    padding: 0rem 0.1rem 3rem 0.1rem;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .col-img-cuerpa #img-cuerpa {
+    padding: 0rem 0.3rem 3rem 0.3rem;
+  }
+}
+
+/* Termina MAIN - Cuerpa */
+/* Comienza PROCESO - Cuerpa */
+.main-proceso {
+  background-color: #ffffff;
+  margin: 0rem;
+  padding: 4rem 0rem;
+  overflow-x: hidden;
+}
+.main-proceso #texto-cuerpa {
+  padding: 3.5rem;
+}
+.main-proceso .col-proceso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-proceso .col-proceso .proceso-items {
+  width: 22rem;
+  margin: 1rem 2rem 1rem 2rem;
+}
+.main-proceso .col-proceso .accordion-button:not(.collapsed) {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Termina PROCESO - Cuerpa */
+/* Comienza Cuerpa Integral - Cuerpa Integral*/
+.section-cuerpaintegral {
+  background-color: #ededed;
+  padding: 1rem 2rem;
+}
+@media screen and (max-width: 575px) {
+  .section-cuerpaintegral {
+    padding: 3.5rem 2rem;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .section-cuerpaintegral {
+    padding: 3.5rem 2rem;
+  }
+}
+.section-cuerpaintegral .col-img-cuerpa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 575px) {
+  .section-cuerpaintegral .col-img-cuerpa {
+    padding: 3rem 0rem;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .section-cuerpaintegral .col-img-cuerpa {
+    padding: 3rem 0rem;
+  }
+}
+.section-cuerpaintegral .col-img-cuerpa .img-cuerpa-absolute {
+  position: absolute;
+}
+.section-cuerpaintegral .col-img-cuerpa .img-cuerpa-absolute #img-cuerpa1 {
+  height: 20rem;
+  margin-right: 6rem;
+}
+.section-cuerpaintegral .col-img-cuerpa .img-cuerpa-relative {
+  position: relative;
+}
+.section-cuerpaintegral .col-img-cuerpa .img-cuerpa-relative #img-cuerpa2 {
+  height: 17rem;
+  margin-left: 10rem;
+}
+.section-cuerpaintegral #texto-cuerpa {
+  padding: 4rem;
+}
+@media screen and (max-width: 575px) {
+  .section-cuerpaintegral #texto-cuerpa {
+    padding: 0rem 1.6rem;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .section-cuerpaintegral #texto-cuerpa {
+    padding: 0rem 1.6rem;
+  }
+}
+.section-cuerpaintegral #texto-cuerpa .parrafo-negrita {
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=estilos.css.map */

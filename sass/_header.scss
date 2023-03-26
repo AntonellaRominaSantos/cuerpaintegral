@@ -1,8 +1,8 @@
 /* media queries*/
-@use "./mixinis.scss" as *;
+@use 'mixins.scss' as *;
 
 /* variables*/
-@use "./variables" as *;
+@use 'variables' as *;
 
 header {
     width: 100%;
