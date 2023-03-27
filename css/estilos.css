@@ -82,13 +82,13 @@
 }
 
 /* Comienza MAIN - Cuerpa Integral*/
-.main-sobremi {
-  background-color: #ededed;
+.main-cuerpa {
+  background-color: #EAC7C7;
   margin: 0rem;
   padding: 2rem 0rem;
   overflow-x: hidden;
 }
-.main-sobremi .col-texto-main {
+.main-cuerpa .col-texto-main {
   display: flex;
   align-items: center;
   padding-right: 0rem;
@@ -116,93 +116,93 @@
   }
 }
 
-/* Termina MAIN - Cuerpa */
-/* Comienza PROCESO - Cuerpa */
-.main-proceso {
+/* Fin del MAIN - Cuerpa */
+/* Inicio del programa - Cuerpa */
+.main-programa {
   background-color: #ffffff;
   margin: 0rem;
   padding: 4rem 0rem;
   overflow-x: hidden;
 }
-.main-proceso #texto-cuerpa {
+.main-programa #texto-cuerpa {
   padding: 3.5rem;
 }
-.main-proceso .col-proceso {
+.main-programa .col-proceso {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.main-proceso .col-proceso .proceso-items {
+.main-programa .col-programa .programa-items {
   width: 22rem;
   margin: 1rem 2rem 1rem 2rem;
 }
-.main-proceso .col-proceso .accordion-button:not(.collapsed) {
-  background-color: #ffffff;
+.main-programa .col-programa .accordion-button:not(.collapsed) {
+  background-color: #EAC7C7;
   color: black;
 }
 
-/* Termina PROCESO - Cuerpa */
+/* Termina PROGRAMA - Cuerpa */
 /* Comienza Cuerpa Integral - Cuerpa Integral*/
-.section-cuerpaintegral {
-  background-color: #ededed;
+.section-cuerpa {
+  background-color: #EAC7C7;
   padding: 1rem 2rem;
 }
 @media screen and (max-width: 575px) {
-  .section-cuerpaintegral {
+  .section-cuerpa {
     padding: 3.5rem 2rem;
     overflow-x: hidden;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .section-cuerpaintegral {
+  .section-cuerpa{
     padding: 3.5rem 2rem;
   }
 }
-.section-cuerpaintegral .col-img-cuerpa {
+.section-cuerpa .col-img-cuerpa {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 @media screen and (max-width: 575px) {
-  .section-cuerpaintegral .col-img-cuerpa {
+  .section-cuerpa .col-img-cuerpa {
     padding: 3rem 0rem;
     overflow-x: hidden;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .section-cuerpaintegral .col-img-cuerpa {
+  .section-cuerpa .col-img-cuerpa {
     padding: 3rem 0rem;
   }
 }
-.section-cuerpaintegral .col-img-cuerpa .img-cuerpa-absolute {
+.section-cuerpa .col-img-cuerpa .img-cuerpa-absolute {
   position: absolute;
 }
-.section-cuerpaintegral .col-img-cuerpa .img-cuerpa-absolute #img-cuerpa1 {
+.section-cuerpa .col-img-cuerpa .img-cuerpa-absolute #img-cuerpa1 {
   height: 20rem;
   margin-right: 6rem;
 }
-.section-cuerpaintegral .col-img-cuerpa .img-cuerpa-relative {
+.section-cuerpa .col-img-cuerpa .img-cuerpa-relative {
   position: relative;
 }
-.section-cuerpaintegral .col-img-cuerpa .img-cuerpa-relative #img-cuerpa2 {
+.section-cuerpa .col-img-cuerpa .img-cuerpa-relative #img-cuerpa2 {
   height: 17rem;
   margin-left: 10rem;
 }
-.section-cuerpaintegral #texto-cuerpa {
+.section-cuerpa #texto-cuerpa {
   padding: 4rem;
 }
 @media screen and (max-width: 575px) {
-  .section-cuerpaintegral #texto-cuerpa {
+  .section-cuerpa #texto-cuerpa {
     padding: 0rem 1.6rem;
     overflow-x: hidden;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .section-cuerpaintegral #texto-cuerpa {
+  .section-cuerpa #texto-cuerpa {
     padding: 0rem 1.6rem;
   }
 }
-.section-cuerpaintegral #texto-cuerpa .parrafo-negrita {
+.section-cuerpa #texto-cuerpa .parrafo-negrita {
   font-weight: 600;
 }
 

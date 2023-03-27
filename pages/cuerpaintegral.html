@@ -20,29 +20,223 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald&family=Roboto&display=swap" rel="stylesheet">
     
 </head>
+
 <!--Inicia el BODY--> 
 <body>
     <header>
-        <nav>
-            <a href="../index.html">INICIO</a>
-            <a href="./productos.html">PRODUCTOS</a>
-            <a href="./contacto.html">CONTACTO</a>
-            <a href="./clases.html">CLASES</a>
-        </nav>
+    
+    <!--Comienza NAVBAR-->    
+  
+<nav class="navbar navbar-expand-lg bg-white">
+  
+    <div id="container-logo">
+         <a class="navbar-brand rotate-vert-center" href="../index.html">
+           <img src="../img/LOGO ANTO jpg.jpg" alt="Bootstrap" width="150">
+        </a>
+    </div>
+    <hr>
+       
+    <div class="container-fluid">
 
-        
-    </header>
-    <main>
-        <div>
-            <h1>CUERPA INTEGRAL</h1>
-            <P>Video</P>
-        
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6AKvi5uLiFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto iusto eligendi facilis. Nostrum non dolore vero! Fuga assumenda voluptate accusantium, ducimus inventore amet temporibus nihil eum minus laborum cumque quod.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci molestias nobis quasi ullam earum eligendi incidunt nam, vel commodi maxime, cupiditate accusamus quod natus, distinctio odio eaque quis doloremque enim!</p>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active">CUERPA INTEGRAL</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/clases.html">CLASES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/productos.hmtl">PRODUCTOS</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </nav>
+  <!--Fin del NAVBAR--> 
+  
+  </header>
+  <!--Fin del HEADER--> 
+
+  <!--Inicio del MAIN--> 
+  
+  <main>
+
+    <div class="container-fluid main-cuerpa"> 
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-texto-main">
+          
+            <div id="texto-main">
+              <h1 class="titulo-main">Cuerpa Integral</h1>
+              <p class="parrafo">Tenemos un tiempo limitado en esta vida.
+                Es nuestra misión ayudarte a vivirla llena de salud, paz y felicidad.
+                Nos comprometemos a compartir contigo todo el conocimiento y las herramientas
+                para que tengas la mejor calidad de vida posible.
+            </div>
+    
         </div>
+    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-img-cuerpa">
+        <img id="img-cuerpa" src="../img/movilidad.jpeg" alt="">
+      </div>
+          
+      </div>
+      </div>
+    
     </main>
+
+    <!--Fin del MAIN-->
+    <!--Comienza PROGRAMA--> 
+  
+  <section>
+
+    <div class="container-fluid main-programa"> 
+    <div class="row">
+  
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-texto-main">
+        
+        <div id="texto-cuerpa">
+          <h1 class="titulo-main"> Programa Cuerpa Integral </h1>
+          <p class="parrafo">Si quieres mejorar tu movilidad, sentirte flexible y fuerte, mejorar tu rendimiento o simplemente, estás cansadx de lesionarte cada dos por tres,<b>el trabajo de movilidad va a ayudarte a que consigas el cambio que estás buscando.</b></p>
+        </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-programa">
+
+      <div class="accordion accordion-flush programa-items" id="accordionFlushExample">
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            <b>01. Programa inicial</b> 
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body parrafo">Comenzamos hablando de sus habitos y necesidades. Metas a corto y mediano plazo. Plan nutricional.</div>
+        </div>
+      </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          <b>02. Definir objetivos</b> 
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body parrafo">Objetivos personalizados, con la intencionalidad de mejorar tus hábitos y se adapten a tu rutina diaria.</div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        <b>03. Rutina</b> 
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body parrafo">Obtendras la rutina via gmail con los objetivos establecidos, y un contacto para poder resolver todas tus dudas.  </div>
+    </div>
+  </div>
+
+  </div>
+
+  </div>
+  
+</div>
+</div>
+
+</section>
+
+<!--Termina PROCESO--> 
+
+<!--Comienza Cuerpa Integral-->
+<div class="container-fluid main section-cuerpa"> 
+    <div class="row">
+
+    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-img-cuerpa">
+    
+        <div class="img-cuerpa-absolute">
+            <img id="img-cuerpa1" src="../img/Negro Rosa Azul Blanco, Moderno Comida Bebida Logotipo.jpg" alt="">
+        </div>  
+
+        <div class="img-cuerpa-relative">
+            <img id="img-cuerpa2" src="" alt="">
+        </div>
+    
+    </div>
+    
+    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <div id="texto-cuerpa">
+            <h1 class="titulo-main">MISION DE CUERPA INTEGRAL</h1>
+            <p class="parrafo parrafo-negrita">Mejorar tu salud integral y generar conciencia.</p> 
+            <p class="parrafo"> Cuerpa nace como el proyecto personal de Anto, cuando se da cuenta de la necesidad ofrecer a sus alumnos herramientas de<br> mejora y prevención <br> dentro y fuera del 
+            </b>entrenamiento integral.</p>
+            </div>
+
+        </div>
+              
+          
+              
+      </div>
+      </div>
+        
+               
+        
+    </section>
+    <!--Fin de Cuerpa Integral-->
+    <!--Inicio del FOOTER-->    
+
+ <footer>
+
+    <div class="container-fluid footer">
+    <div class="row">
+  
+      <div class="col-sm-12 col-md-12 col-lg-10 col-xl-8 col-xxl-10 texto-footer">
+  
+        <ul>  
+          <li class="mapa-footer"><a class="a-mapa-footer" href="../index.html">INICIO</li>
+            <li class="mapa-footer"><a class="a-mapa-footer">CUERPA INTEGRAL</a></li>
+            <li class="mapa-footer"><a class="a-mapa-footer" href="../pages/clases.html">CLASES</a></li>
+            <li class="mapa-footer"><a class="a-mapa-footer" href="../pages/productos.html">PRODUCTOS</a></li>
+            <li class="mapa-footer"><a class="a-mapa-footer" href="../pages/contacto.html">CONTACTO</a></li>
+          </ul>
+    
+        </div>
+    
+        <div class="col-sm-12 col-md-12 col-lg-2 col-xl-4 col-xxl-2 redes-footer" >
+          <a href="" target="_blank"><img class="img_redes_footer" src="../img/580b57fcd9996e24bc43c521.png" alt=""> </a>
+          <a href="" target="_blank"><img class="img_redes_footer" src="../img/pngtree-whatsapp-phone-icon-png-image_6315989.png" alt=""> </a> 
+        </div>
+
+      </div>
+    </div>
+  
+  </footer>
+  
+<!--Fin del FOOTER--> 
+
+<!--Boostrap script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+  
+
+
+
+
     
     
 </body>

@@ -81,7 +81,7 @@
   }
 
 /* Comienza MAIN - Cuerpa Integral*/
-.main-sobremi {
+.main-cuerpa {
     background-color: #ededed;
     margin: 0rem;
     padding: 2rem 0rem;
@@ -117,9 +117,9 @@
 }
 /* Termina MAIN - Cuerpa */
 
-/* Comienza PROCESO - Cuerpa */
-.main-proceso{
-    background-color:#ffffff;
+/* Comienza PROGRAMA - Cuerpa */
+.main-programa{
+    background-color:#EAC7C7;
     margin: 0rem;
     padding: 4rem 0rem;
     overflow-x: hidden;
@@ -128,13 +128,13 @@
         padding: 3.5rem;
      }
 
-     .col-proceso{
+     .col-programa{
        display: flex;
        align-items: center;
        justify-content:center;
    
 
-       .proceso-items{
+       .programa-items{
           width: 22rem;
           margin: 1rem 2rem 1rem 2rem;
         }
@@ -146,11 +146,11 @@
      }
 }
 
-/* Termina PROCESO - Cuerpa */
+/* Termina PROGRAMA - Cuerpa */
 
 /* Comienza Cuerpa Integral - Cuerpa Integral*/
 
-.section-cuerpaintegral{
+.section-cuerpa{
     background-color: #ededed;
     padding: 1rem 2rem;
  
