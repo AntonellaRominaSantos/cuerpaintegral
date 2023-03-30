@@ -9,15 +9,15 @@
 
 .main-contacto{
     height: 36rem;
-    background-image: url
+    background-image: url(..//img/);
     background-size: cover;
-    background-position-y:top;
+    background-position-y: top;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
 
-      #texto-main-servicios{
+      #texto-main-presupuesto{
         padding: 0rem 3rem;
         text-align: center;
 
@@ -83,7 +83,7 @@
 
 
 main {
-    background-color: #ededed;
+    background-color: #EAC7C7;
     margin: 0rem;
     padding: 0rem;
 
@@ -155,7 +155,7 @@ main {
 
 /* Fin del PASOS - Contacto*/
 
-/* Comienza FORMULARIO - Contacto*/
+/* Inicio de FORMULARIO - Contacto*/
 
 .formulario{
 
@@ -250,7 +250,7 @@ main {
             background-color: white;
             width: 100%;
             font-family: $font_parrafo;
-            color:#808080 ;
+            color:#7DB9B6 ;
             font-size: 1rem;
           }
 
