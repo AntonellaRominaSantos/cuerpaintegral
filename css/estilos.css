@@ -1,3 +1,1028 @@
+.scale {
+  transition: all 0.5s;
+}
+
+.scale:hover {
+  transform: scale(1.1);
+}
+
+@-webkit-keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+/* media queries*/
+/* variables*/
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+/* Inicio de MAIN - Index*/
+.rotate-vert-center {
+  -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+main {
+  background-color: #EAC7C7;
+  margin: 0rem;
+  padding: 0rem;
+  /* Imagen Main */
+}
+main .col-texto-main {
+  display: flex;
+  align-items: center;
+  padding-right: 0rem;
+}
+main .col-texto-main #texto-main {
+  padding: 3.5rem;
+}
+@media screen and (max-width: 575px) {
+  main .col-texto-main #texto-main {
+    padding: 5rem 3.5rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  main .col-texto-main #texto-main {
+    padding: 3rem 12rem 3rem 3.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main .col-texto-main #texto-main {
+    padding: 2.9rem 3.5rem;
+  }
+}
+main .col-texto-main #texto-main .parrafo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  letter-spacing: 0.15rem;
+  line-height: 1.1rem;
+}
+@media screen and (max-width: 575px) {
+  main .col-texto-main #texto-main .parrafo {
+    font-size: 0.75rem;
+    letter-spacing: 0.12rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  main .col-texto-main #texto-main .parrafo {
+    font-size: 0.7rem;
+    letter-spacing: 0.11rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main .col-texto-main #texto-main .parrafo {
+    font-size: 0.7rem;
+    letter-spacing: 0.11rem;
+    line-height: 1rem;
+  }
+}
+main .col-texto-main #texto-main .titulo-main {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  color: black;
+  font-weight: 100;
+  line-height: 2.4rem;
+  margin: 2.6rem 0rem;
+}
+@media screen and (max-width: 575px) {
+  main .col-texto-main #texto-main .titulo-main {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  main .col-texto-main #texto-main .titulo-main {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin: 1.9rem 0rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main .col-texto-main #texto-main .titulo-main {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+main .col-texto-main #texto-main .btn1 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+main .col-texto-main #texto-main .btn1 .a_btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+main .col-texto-main #texto-main .btn1 #btn_img {
+  width: 2.5rem;
+  padding-left: 0.3rem;
+}
+main .col-img-main {
+  margin: 0rem;
+  padding: 0rem;
+}
+main .col-img-main #img-main {
+  max-width: 100%;
+  height: auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main .col-img-main #img-main {
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+/* Fin del MAIN - Index*/
+/* Comienza DESTACADO - Index*/
+#destacado {
+  height: auto;
+  background-color: #7DB9B6;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0rem;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 575px) {
+  #destacado {
+    padding: 4rem 3rem;
+  }
+}
+#destacado .titulo-blanco {
+  color: white;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  font-weight: 100;
+  line-height: 2.4rem;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 575px) {
+  #destacado .titulo-blanco {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #destacado .titulo-blanco {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #destacado .titulo-blanco {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+#destacado .parrafo-blanco {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  line-height: 1.4rem;
+}
+@media screen and (max-width: 575px) {
+  #destacado .parrafo-blanco {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #destacado .parrafo-blanco {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #destacado .parrafo-blanco {
+    font-size: 0.8rem;
+  }
+}
+
+/* Fin del DESTACADO - Index*/
+/* Inicio del ARTICLES Index */
+.articles {
+  margin: 0rem;
+  padding: 4rem;
+}
+@media screen and (max-width: 575px) {
+  .articles {
+    padding: 2rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .articles {
+    padding: 2.2rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .articles {
+    padding: 3rem;
+  }
+}
+.articles .cards {
+  padding: 0.7rem;
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .articles .cards {
+    padding: 0.3rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .articles .cards {
+    padding: 0.6rem;
+  }
+}
+.articles .cards .card {
+  border: none;
+}
+.articles .cards .card .card-body {
+  padding: 0rem;
+  margin: 0rem;
+}
+.articles .cards .card .card-body .article-btn {
+  background-color: transparent;
+  font-weight: 600;
+  border-style: none;
+  padding: 1rem 0rem;
+}
+.articles .cards .card .card-body .btn {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.articles .cards .card .card-body #btn-img {
+  width: 2.5rem;
+  padding-left: 0.3rem;
+}
+
+/* Fin de ARTICLES - Index*/
+/* Inicio de CONTACTO Index */
+#contacto {
+  height: auto;
+  background-color: #EAC7C7;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 575px) {
+  #contacto {
+    padding: 4rem;
+  }
+}
+#contacto .titulo-negro-centrado {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  color: black;
+  font-weight: 100;
+  line-height: 2.4rem;
+  margin: 1.3rem 0rem;
+  text-align: center;
+}
+@media screen and (max-width: 575px) {
+  #contacto .titulo-negro-centrado {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #contacto .titulo-negro-centrado {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    margin: 1.9rem 0rem;
+  }
+}
+#contacto .parrafo_negro-centrado {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+@media screen and (max-width: 575px) {
+  #contacto .parrafo_negro-centrado {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #contacto .parrafo_negro-centrado {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+#contacto .btn_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contacto .btn_center .btn-contacto {
+  margin: 2rem 0rem;
+}
+#contacto .btn_center .btn1 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+#contacto .btn_center .a_btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+#contacto .btn_center #btn_img {
+  width: 2.5rem;
+  padding-left: 0.3rem;
+}
+
+/* Fin de CONTACTO - Index*/
+/* media queries*/
+/* variables*/
+header {
+  width: 100%;
+  background-color: #EAC7C7;
+}
+header body {
+  background-color: #EAC7C7;
+}
+header .navbar {
+  display: block;
+}
+header #container-logo {
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+}
+header .navbar-toggler {
+  margin: 0.5rem;
+}
+header .navbar-collapse {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+}
+header .navbar-nav {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  color: black;
+}
+header .nav-item {
+  padding: 0 1.5rem 0 1.5rem;
+}
+header .nav-item:hover {
+  color: #7DB9B6;
+  font-weight: 700;
+}
+
+/* media queries*/
+/* variables*/
+ul {
+  padding: 0rem;
+}
+
+.footer {
+  height: auto;
+  background-color: black;
+  padding: 3rem;
+  /* mixin*/
+}
+.footer .texto-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (max-width: 575px) {
+  .footer .texto-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer .texto-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.footer .redes-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media screen and (max-width: 575px) {
+  .footer .redes-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer .redes-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.footer .mapa-footer {
+  display: inline-block;
+  padding: 0rem 1rem;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.1rem;
+  font-family: "Cormorant Garamond", serif;
+}
+@media screen and (max-width: 575px) {
+  .footer .mapa-footer {
+    display: block;
+    padding: 0.5rem 0rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer .mapa-footer {
+    display: block;
+    padding: 0.5rem 0rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+.footer .a-mapa-footer {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+}
+.footer .a-mapa-footer:hover {
+  font-weight: 800;
+  text-decoration: underline;
+}
+.footer .img_redes_footer {
+  width: 3rem;
+  height: 3rem;
+}
+@media screen and (max-width: 575px) {
+  .footer .img_redes_footer {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer .img_redes_footer {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+  }
+}
+
+.img_redes_footer:hover {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+/* media queries*/
+/* variables*/
+/* Estilos generales - Cuerpa Integral*/
+#texto-main {
+  padding: 3.5rem;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 575px) {
+  #texto-main {
+    padding: 5rem 3.5rem;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #texto-main {
+    padding: 3rem 12rem 3rem 3.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #texto-main {
+    padding: 2.9rem 3.5rem;
+  }
+}
+
+.parrafo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  letter-spacing: 0.15rem;
+  line-height: 1.1rem;
+}
+@media screen and (max-width: 575px) {
+  .parrafo {
+    font-size: 0.75rem;
+    letter-spacing: 0.12rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .parrafo {
+    font-size: 0.7rem;
+    letter-spacing: 0.11rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .parrafo {
+    font-size: 0.7rem;
+    letter-spacing: 0.11rem;
+    line-height: 1rem;
+  }
+}
+
+.titulo-main {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  color: black;
+  font-weight: 100;
+  line-height: 2.4rem;
+  margin: 2.6rem 0rem;
+}
+@media screen and (max-width: 575px) {
+  .titulo-main {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .titulo-main {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin: 1.9rem 0rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .titulo-main {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+
+/* Comienza MAIN - Cuerpa Integral*/
+.main-cuerpa {
+  background-color: #EAC7C7;
+  margin: 0rem;
+  padding: 2rem 0rem;
+  overflow-x: hidden;
+}
+.main-cuerpa .col-texto-main {
+  display: flex;
+  align-items: center;
+  padding-right: 0rem;
+}
+
+.col-img-cuerpa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-img-cuerpa #img-cuerpa {
+  width: 20rem;
+  margin: 0rem 4rem;
+  padding: 1rem;
+}
+@media screen and (max-width: 575px) {
+  .col-img-cuerpa #img-cuerpa {
+    padding: 0rem 0.1rem 3rem 0.1rem;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .col-img-cuerpa #img-cuerpa {
+    padding: 0rem 0.3rem 3rem 0.3rem;
+  }
+}
+
+/* Termina MAIN - Cuerpa */
+/* Comienza PROGRAMA - Cuerpa */
+.main-programa {
+  background-color: #EAC7C7;
+  margin: 0rem;
+  padding: 4rem 0rem;
+  overflow-x: hidden;
+}
+.main-programa #texto-cuerpa {
+  padding: 3.5rem;
+}
+.main-programa .col-programa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-programa .col-programa .programa-items {
+  width: 22rem;
+  margin: 1rem 2rem 1rem 2rem;
+}
+.main-programa .col-programa .accordion-button:not(.collapsed) {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Termina PROGRAMA - Cuerpa */
+/* Comienza Cuerpa Integral - Cuerpa Integral*/
+.section-cuerpa {
+  background-color: #7DB9B6;
+  padding: 1rem 2rem;
+}
+@media screen and (max-width: 575px) {
+  .section-cuerpa {
+    padding: 3.5rem 2rem;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .section-cuerpa {
+    padding: 3.5rem 2rem;
+  }
+}
+.section-cuerpa .col-img-cuerpa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 575px) {
+  .section-cuerpa .col-img-cuerpa {
+    padding: 3rem 0rem;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .section-cuerpa .col-img-cuerpa {
+    padding: 3rem 0rem;
+  }
+}
+.section-cuerpa .col-img-cuerpa .img-cuerpa-absolute {
+  position: absolute;
+}
+.section-cuerpa .col-img-cuerpa .img-cuerpa-absolute #img-cuerpa1 {
+  height: 20rem;
+  margin-right: 6rem;
+}
+.section-cuerpa .col-img-cuerpa .img-cuerpa-relative {
+  position: relative;
+}
+.section-cuerpa .col-img-cuerpa .img-cuerpa-relative #img-cuerpa2 {
+  height: 17rem;
+  margin-left: 10rem;
+}
+.section-cuerpa #texto-cuerpa {
+  padding: 4rem;
+}
+@media screen and (max-width: 575px) {
+  .section-cuerpa #texto-cuerpa {
+    padding: 0rem 1.6rem;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .section-cuerpa #texto-cuerpa {
+    padding: 0rem 1.6rem;
+  }
+}
+.section-cuerpa #texto-cuerpa .parrafo-negrita {
+  font-weight: 600;
+}
+
+/* media queries*/
+/* variables*/
+/* Inicio del MAIN - Clases*/
+.main-clases {
+  height: 36rem;
+  background-image: url(../img/Negro\ y\ Rosa\ Moderno\ ComidaBebida\ Logotipo.jpg);
+  background-size: cover;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 575px) {
+  .main-clases {
+    background-position-y: bottom;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 4rem;
+    background-image: url;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .main-clases {
+    background-position-y: bottom;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 4rem;
+    background-image: url;
+  }
+}
+.main-clases .titulo-clases {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.main-clases #texto-main-clases {
+  padding: 0rem 2rem;
+}
+@media screen and (max-width: 575px) {
+  .main-clases #texto-main-clases {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .main-clases #texto-main-clases {
+    text-align: center;
+  }
+}
+
+.titulo-main-clases {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  color: black;
+  font-weight: 100;
+  line-height: 2.4rem;
+  margin: 2.6rem 0rem;
+}
+@media screen and (max-width: 575px) {
+  .titulo-main-clases {
+    font-size: 1.55rem;
+    line-height: 1.9rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .titulo-main-clases {
+    font-size: 1.6rem;
+    line-height: 1.95rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .titulo-main-clases {
+    font-size: 1.7rem;
+    line-height: 2.1rem;
+  }
+}
+
+/* Fin del MAIN - Clases*/
+/* Inicio de MENU - Clases */
+.menu-clases {
+  height: auto;
+  padding: 3rem 0rem 2rem 0rem;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 575px) {
+  .menu-clases {
+    display: none;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .menu-clases {
+    display: none;
+  }
+}
+.menu-clases .texto-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-clases .texto-footer ul {
+  padding: 0rem;
+}
+.menu-clases .texto-footer .menu-clases {
+  display: inline-block;
+  padding: 0rem 4rem;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .menu-clases .texto-footer .menu-clases {
+    font-size: 1rem;
+    padding: 0rem 3.6rem;
+  }
+}
+.menu-clases .texto-footer .a-menu-clases {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+/* Termina MENU - Clases*/
+/* Comienza CLASE 1 y 3 - CLASES */
+.main1 {
+  background-color: #ededed;
+  margin: 0rem;
+  padding: 1rem 0rem;
+  overflow-x: hidden;
+}
+.main1 .texto-clase {
+  padding: 0rem 2rem;
+}
+@media screen and (max-width: 575px) {
+  .main1 .texto-clase {
+    padding: 0rem 1rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .main1 .texto-clase {
+    padding: 0rem 5rem 0rem 1rem;
+  }
+}
+.main1 .col-texto-main, .main1 .main2 {
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+}
+.main1 .col-texto-main #texto-clases, .main1 .main2 #texto-clases {
+  padding: 2rem 3.5rem;
+}
+.main1 .col-texto-main #texto-clases .parrafo, .main1 .main2 #texto-clases .parrafo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  letter-spacing: 0.15rem;
+  line-height: 1.1rem;
+}
+@media screen and (max-width: 575px) {
+  .main1 .col-texto-main #texto-clases .parrafo, .main1 .main2 #texto-clases .parrafo {
+    font-size: 0.75rem;
+    letter-spacing: 0.12rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .main1 .col-texto-main #texto-clases .parrafo, .main1 .main2 #texto-clases .parrafo {
+    font-size: 0.7rem;
+    letter-spacing: 0.11rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main1 .col-texto-main #texto-clases .parrafo, .main1 .main2 #texto-clases .parrafo {
+    font-size: 0.7rem;
+    letter-spacing: 0.11rem;
+    line-height: 1rem;
+  }
+}
+.main1 .col-texto-main #texto-clases .titulo-main, .main1 .main2 #texto-clases .titulo-main {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  color: black;
+  font-weight: 100;
+  line-height: 2.4rem;
+  margin: 2.6rem 0rem;
+}
+@media screen and (max-width: 575px) {
+  .main1 .col-texto-main #texto-clases .titulo-main, .main1 .main2 #texto-clases .titulo-main {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .main1 .col-texto-main #texto-clases .titulo-main, .main1 .main2 #texto-clases .titulo-main {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin: 1.9rem 0rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main1 .col-texto-main #texto-clases .titulo-main, .main1 .main2 #texto-clases .titulo-main {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+.main1 .col-texto-main #texto-clases .btn1, .main1 .main2 #texto-clases .btn1 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 600;
+  margin: 2rem 0rem 0rem 0rem;
+}
+.main1 .col-texto-main #texto-clases .btn1 .a_btn, .main1 .main2 #texto-clases .btn1 .a_btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.main1 .col-texto-main #texto-clases .btn1 #btn_img, .main1 .main2 #texto-clases .btn1 #btn_img {
+  width: 2.5rem;
+  padding-left: 0.3rem;
+}
+.main1 #img-clase {
+  width: 25rem;
+  margin: 0rem 4rem;
+  padding: 1.2rem;
+  overflow-x: hidden;
+}
+
+/* Fin de CLASE 1 y 3- CLASES*/
+/* Inicio de CLASE 2 - CLASES */
+.main2 {
+  background-color: #ffffff;
+  margin: 0rem;
+  padding: 1rem 0rem;
+  overflow-x: hidden;
+}
+.main2 .texto-clase {
+  padding: 0rem 2rem;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 575px) {
+  .main2 .texto-clase {
+    padding: 0rem 1rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .main2 .texto-clase {
+    padding: 0rem 5rem 0rem 1rem;
+  }
+}
+.main2 #texto-clases {
+  padding: 2rem 6rem 2rem 3.5rem;
+  overflow-x: hidden;
+}
+.main2 #texto-clases .btn1 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 600;
+  margin: 2rem 0rem 0rem 0rem;
+}
+.main2 #texto-clases .btn1 .a_btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.main2 #texto-clases .btn1 #btn_img {
+  width: 2.5rem;
+  padding-left: 0.3rem;
+}
+.main2 #img-clase {
+  width: 25rem;
+  margin: 0rem 4rem;
+  padding: 1.2rem;
+  overflow-x: hidden;
+}
+
 /* media queries*/
 /* variables*/
 /* Inicio del MAIN - Contacto*/
