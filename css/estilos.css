@@ -383,7 +383,7 @@ header {
   background-color: #EAC7C7;
 }
 header body {
-  background-color: #7DB9B6;
+  background-color: #EAC7C7;
 }
 header .navbar {
   display: block;
@@ -667,7 +667,7 @@ ul {
 /* Termina PROGRAMA - Cuerpa */
 /* Comienza Cuerpa Integral - Cuerpa Integral*/
 .section-cuerpa {
-  background-color: #7DB9B6;
+  background-color: #EAC7C7;
   padding: 1rem 2rem;
 }
 @media screen and (max-width: 575px) {
