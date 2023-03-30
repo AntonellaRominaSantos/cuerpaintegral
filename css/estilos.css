@@ -383,7 +383,7 @@ header {
   background-color: #EAC7C7;
 }
 header body {
-  background-color: #EAC7C7;
+  background-color: #7DB9B6;
 }
 header .navbar {
   display: block;
@@ -410,7 +410,7 @@ header .nav-item {
   padding: 0 1.5rem 0 1.5rem;
 }
 header .nav-item:hover {
-  color: #7DB9B6;
+  color: #EAC7C7;
   font-weight: 700;
 }
 
@@ -642,7 +642,7 @@ ul {
 /* Termina MAIN - Cuerpa */
 /* Comienza PROGRAMA - Cuerpa */
 .main-programa {
-  background-color: #EAC7C7;
+  background-color: #7DB9B6;
   margin: 0rem;
   padding: 4rem 0rem;
   overflow-x: hidden;
