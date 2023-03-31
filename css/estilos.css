@@ -734,7 +734,7 @@ ul {
 /* Inicio del MAIN - Clases*/
 .main-clases {
   height: 36rem;
-  background-image: url(../img/Negro\ y\ Rosa\ Moderno\ ComidaBebida\ Logotipo.jpg);
+  background-image: url(../img/WhatsApp\ Image\ 2023-03-04\ at\ 13.11.57.jpeg);
   background-size: cover;
   background-position-y: top;
   background-repeat: no-repeat;
@@ -858,7 +858,7 @@ ul {
 /* Termina MENU - Clases*/
 /* Comienza CLASE 1 y 3 - CLASES */
 .main1 {
-  background-color: #ededed;
+  background-color: #EAC7C7;
   margin: 0rem;
   padding: 1rem 0rem;
   overflow-x: hidden;
@@ -962,7 +962,7 @@ ul {
   width: 2.5rem;
   padding-left: 0.3rem;
 }
-.main1 #img-clase {
+.main1 #img-clases {
   width: 25rem;
   margin: 0rem 4rem;
   padding: 1.2rem;
@@ -977,17 +977,17 @@ ul {
   padding: 1rem 0rem;
   overflow-x: hidden;
 }
-.main2 .texto-clase {
+.main2 .texto-clases {
   padding: 0rem 2rem;
   overflow-x: hidden;
 }
 @media screen and (max-width: 575px) {
-  .main2 .texto-clase {
+  .main2 .texto-clases {
     padding: 0rem 1rem;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .main2 .texto-clase {
+  .main2 .texto-clases {
     padding: 0rem 5rem 0rem 1rem;
   }
 }
@@ -1016,13 +1016,309 @@ ul {
   width: 2.5rem;
   padding-left: 0.3rem;
 }
-.main2 #img-clase {
+.main2 #img-clases {
   width: 25rem;
   margin: 0rem 4rem;
   padding: 1.2rem;
   overflow-x: hidden;
 }
 
+/* media queries*/
+/* variables*/
+/* Estilos generales - Productos*/
+#texto-productos {
+  padding: 4rem;
+}
+@media screen and (max-width: 575px) {
+  #texto-productos {
+    padding: 2rem 5rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #texto-productos {
+    padding: 2rem 10rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #texto-productos {
+    padding: 1rem;
+  }
+}
+
+.parrafo_frase {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: black;
+  letter-spacing: 0.15rem;
+  line-height: 1.3rem;
+  text-align: center;
+}
+@media screen and (max-width: 575px) {
+  .parrafo_frase {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .parrafo_frase {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .parrafo_frase {
+    font-size: 0.85rem;
+    line-height: 1.15rem;
+  }
+}
+
+/* Fin elementos - Productos*/
+/* Inicio MAIN - Productos*/
+.main-productos {
+  background-color: #EAC7C7;
+  margin: 0rem;
+  padding: 2rem 0rem;
+}
+.main-productos .col-texto-main {
+  display: flex;
+  align-items: center;
+  padding-right: 0rem;
+}
+
+.col-img-productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-img-productos #img-productos {
+  width: 18rem;
+  margin: 0rem 4rem;
+  padding: 0rem;
+}
+@media screen and (max-width: 575px) {
+  .col-img-productos #img-productos {
+    padding: 0rem 2rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .col-img-productos #img-productos {
+    padding: 0rem 0.3rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .col-img-productos #img-productos {
+    width: 15rem;
+  }
+}
+
+/* Fin del MAIN - Productos*/
+/* Inicio PRODUCTOS - Productos*/
+#productos #texto-main {
+  padding: 3rem 0rem 0rem 3.5rem;
+}
+@media screen and (max-width: 575px) {
+  #productos #texto-main {
+    padding: 5rem 0rem 0rem 3.5rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #productos #texto-main {
+    padding: 3rem 5rem 0rem 3.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #productos #texto-main {
+    padding: 2.9rem 0rem 0rem 3.5rem;
+  }
+}
+#productos #texto-main .titulo-main {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  color: black;
+  font-weight: 100;
+  line-height: 2.4rem;
+  margin: 2.6rem 0rem;
+}
+@media screen and (max-width: 575px) {
+  #productos #texto-main .titulo-main {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #productos #texto-main .titulo-main {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin: 1.9rem 0rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #productos #texto-main .titulo-main {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+#productos .articles {
+  margin: 0rem;
+  padding: 2rem 4rem;
+}
+@media screen and (max-width: 575px) {
+  #productos .articles {
+    padding: 2rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #productos .articles {
+    padding: 2.2rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #productos .articles {
+    padding: 3rem;
+  }
+}
+#productos .articles .cards {
+  padding: 0.7rem;
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #productos .articles .cards {
+    padding: 0.3rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #productos .articles .cards {
+    padding: 0.6rem;
+  }
+}
+#productos .articles .cards .card {
+  border: none;
+}
+#productos .articles .cards .card .card-body {
+  padding: 0rem;
+  margin: 0rem;
+}
+#productos .articles .cards .card .card-body .article-btn {
+  background-color: transparent;
+  font-weight: 600;
+  border-style: none;
+  padding: 1rem 0rem;
+}
+#productos .articles .cards .card .card-body .btn {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 575px) {
+  #productos .articles .cards .card .card-body .btn {
+    font-size: 0.77rem;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #productos .articles .cards .card .card-body .btn {
+    font-size: 0.9rem;
+  }
+}
+#productos .articles .cards .card .card-body #btn-img {
+  width: 2.5rem;
+  padding-left: 0.2rem;
+}
+@media screen and (max-width: 575px) {
+  #productos .articles .cards .card .card-body #btn-img {
+    width: 2.3rem;
+    padding-left: 0rem;
+  }
+}
+
+/* Fin de PROYECTOS - Productos*/
+/* Inicio de CONTACTO - Productos*/
+#contacto {
+  height: auto;
+  background-color: #ededed;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+@media screen and (max-width: 575px) {
+  #contacto {
+    padding: 4rem;
+  }
+}
+#contacto .titulo-negro-centrado {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.2rem;
+  color: black;
+  font-weight: 100;
+  line-height: 2.4rem;
+  margin: 1.3rem 0rem;
+  text-align: center;
+}
+@media screen and (max-width: 575px) {
+  #contacto .titulo-negro-centrado {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin: 1.9rem 0rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #contacto .titulo-negro-centrado {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    margin: 1.9rem 0rem;
+  }
+}
+#contacto .parrafo_negro-centrado {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+@media screen and (max-width: 575px) {
+  #contacto .parrafo_negro-centrado {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #contacto .parrafo_negro-centrado {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+#contacto .btn_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contacto .btn_center .btn-contacto {
+  margin: 2rem 0rem;
+}
+#contacto .btn_center .btn1 {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+#contacto .btn_center .a_btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+#contacto .btn_center #btn_img {
+  width: 2.5rem;
+  padding-left: 0.3rem;
+}
+
+/* Fin de CONTACTO - Productos*/
 /* media queries*/
 /* variables*/
 /* Inicio del MAIN - Contacto*/
